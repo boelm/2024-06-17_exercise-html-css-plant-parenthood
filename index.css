@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    background-color: #fcf6fc;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    background-color: white;
+    max-width: 1000px;
+    box-shadow: 1px 1px 1px 4px rgba(0, 0, 0, 0.658);
+}
