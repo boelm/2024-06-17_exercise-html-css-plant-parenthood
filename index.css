@@ -1,7 +1,10 @@
+/* https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 :root {
   --main-green: #0a846e;
-  --main-border-color: rgba(0, 0, 0, 0.144);
   --main-red: #b93857;
+  --main-brown: #9e6d52;
+  --main-border-color: rgba(0, 0, 0, 0.144);
 }
 * {
   margin: 0;
@@ -49,7 +52,7 @@ header {
     }
   }
   .img2 {
-    background-color: burlywood;
+    background-color: var(--main-brown);
   }
   .img3 {
     background-color: var(--main-green);
@@ -132,9 +135,12 @@ main {
     text-align: center;
     font-size: 2rem;
     font-weight: normal;
+    padding-top: 3rem;
     padding-bottom: 2rem;
   }
   .plantations {
+    padding-bottom: 2rem;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -165,12 +171,14 @@ main {
       }
     }
     p.plant {
-      font-weight: bold;
       font-size: 1.5rem;
       margin: 0;
     }
+    p.plant,
     time {
       font-weight: bold;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
     }
     button.btn-red {
       width: max-content;
@@ -209,7 +217,7 @@ footer {
         color: white;
         font-size: 1.2rem;
         padding: 1rem;
-       
+
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 9fr 1fr;
@@ -223,19 +231,19 @@ footer {
 
           font-size: 3em;
         }
-        div.phone{
-            display: flex;
-            justify-content: flex-start;
-            img{
-                padding-right: 1rem;
-            }
+        div.phone {
+          display: flex;
+          justify-content: flex-start;
+          img {
+            padding-right: 1rem;
+          }
         }
-        div.mail{
-            display: flex;
-            justify-content: flex-end;
-            img{
-                padding-left: 1rem;
-            }
+        div.mail {
+          display: flex;
+          justify-content: flex-end;
+          img {
+            padding-left: 1rem;
+          }
         }
       }
       div.right {
@@ -253,18 +261,14 @@ footer {
     font-size: 2rem;
     padding: 2rem;
   }
-}
 
-/* footer {
-  display: flex;
-  justify-content: space-around;
-
-  section.black {
-    background-color: rgba(0, 0, 0, 0.687);
-    color: white;
-    width: 100%;
+  /* page 2 specifik CSS */
+  div.page2-footer-img {
+    background-color: var(--main-brown);
+    padding: 2rem;
+    margin-top: 3rem;
   }
-} */
+}
 
 /* TODO: MediaQueries
 h2: font-size 16?
