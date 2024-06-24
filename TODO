@@ -4,3 +4,6 @@ index ->header:
 - how show entire svg of plant and dig?
 - how make hand img a bit more proportional?
 ->maybe img url in css (background..)
+- make footer on index-page mobile responsive
+- make "mina sidor" mobile responsive.
+- nav bar on "mina sidor" should be on top of header-img.
