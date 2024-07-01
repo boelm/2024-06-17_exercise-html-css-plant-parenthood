@@ -263,6 +263,10 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
+
+  .wrapper{
+    max-width: 430px;
+  }
   header {
     grid-template-rows: repeat(2, 4.5fr);
     .img1 {
